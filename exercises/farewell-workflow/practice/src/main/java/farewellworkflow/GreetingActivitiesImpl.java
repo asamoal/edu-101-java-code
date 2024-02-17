@@ -21,6 +21,13 @@ public class GreetingActivitiesImpl implements GreetingActivities {
      * method will be "get-spanish-farewell". The name of method needs to 
      * be the same as in the GreetingActivities interface
      */
+
+    @Override
+    public String farewellInSpanish(String name) {
+        return callService("get-spanish-farewell", name);
+    }
+
+
     String callService(String stem, String name) {
 
         StringBuilder builder = new StringBuilder();

@@ -11,4 +11,5 @@ public interface GreetingActivities {
      * message in Spanish. You can name your method whatever you like, but remember
      * the name as you'll need to implement it in a later step.
     */
+    String farewellInSpanish(String name);
 }
